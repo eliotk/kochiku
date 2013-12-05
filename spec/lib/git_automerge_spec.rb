@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'git_automerge'
 
 describe GitAutomerge do
   describe "#automerge" do

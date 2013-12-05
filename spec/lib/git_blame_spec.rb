@@ -1,4 +1,5 @@
 require 'spec_helper'
+require 'git_blame'
 
 describe GitBlame do
   let(:repository) { FactoryGirl.create(:repository, url: 'git@github.com:square/test-repo.git') }
